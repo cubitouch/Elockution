@@ -1,0 +1,127 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #353535;
+}
+
+header {
+	position: relative;
+	z-index: 20;
+	background-color: #353535;
+	border-bottom: 4px solid #cee06a;
+	padding: 10px 0 !important;
+	width: 100%;
+	background-image: url('./images/header-bg.png');
+}
+header .title.hide-on-phones {
+	font-size: 24px;
+	color: #fff !important;
+	margin-left: 10px;
+	margin-top: 16px;
+	float: left;
+}
+header .title.phone {
+	font-size: 24px;
+	color: #fff !important;
+	margin-left: 10px;
+	margin-top: 2px;
+	float: left;
+}
+header .title .light{
+	color: #e69510;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #555;
+}
+
+#menu a {
+	float: right;
+	margin-right: 10px;
+	font-weight: normal !important;
+}
+
+#content {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	overflow: auto;
+	background-color: #fff;
+	background-image: url('./images/background-stripes.gif');
+}
+.messageitem {
+	margin: 0 0 12px 0;
+	border: 1px solid #DDD;
+	padding: 10px !important;
+	background-color: White;
+	word-wrap: break-word;
+}
+.messageitem.emphase {
+	background-color: #F6F9E4;	
+}
+
+.hidden {
+	display: none;
+}
+
+.clearSep {
+	visibility: hidden;
+	clear: both;
+	margin: 0;
+}
+
+.voyantVert,
+.voyantRouge,
+.voyantBleu {
+	width: 6px;
+	height: 6px;
+	margin-right: 10px;
+	border-radius: 15px;
+	border: 1px solid #bbb;
+	display: inline-block;
+}
+
+.voyantVert {
+	background: #CEE06A;
+}
+.voyantRouge {
+	background: #fE606A;
+}
+.voyantBleu {
+	background: #6Aa0fE;
+}
+
+p.lead {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 18px;
+	color: #777;
+	text-align: justify;
+	font-style: italic;
+}
+.reveal-modal-bg {
+	position: fixed;
+}
+
+footer {
+	left: 0;
+	right: 0;
+	z-index: 20;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #353535;
+	border-top: 2px solid #cee06a;
+	background-image: url('./images/header-bg.png');
+}
+footer form {
+	margin: 0 4%;
+}
+
+#channellabel {
+	font-variant: small-caps;
+	border-bottom: 2px solid #353535;
+}
